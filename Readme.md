@@ -11,7 +11,7 @@ References:
 
 List of implemented algorithms and data structures so far.
 
-* Sorting Algorithms
+* Sorting
   * Bubble Sort
   * Heap Sort
   * Insertion Sort
