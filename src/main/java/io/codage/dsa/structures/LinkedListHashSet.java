@@ -1,18 +1,17 @@
 package io.codage.dsa.structures;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * HashSet implemented as an array of LinkedList.
- * <a href="">705. Design HashSet</a>
+ * <a href="https://leetcode.com/problems/design-hashset/">705. Design HashSet</a>
  */
 public class LinkedListHashSet {
-    private final List<Integer>[] values;
+    private final ArrayList<Integer>[] values;
     private static final Integer MAX_CAPACITY = 1000;
 
     public LinkedListHashSet() {
-        this.values = new ArrayList[MAX_CAPACITY];
+        this.values = new ArrayList<>[MAX_CAPACITY];
     }
 
     public void add(int key) {

@@ -68,6 +68,9 @@ class Bucket {
     }
 }
 
+/**
+ * <a href="https://leetcode.com/problems/design-hashmap/">706. Design HashMap</a>
+ */
 public class LinkedListHashMap {
     private final Bucket[] buckets;
     private static final int TOTAL_BUCKETS = 2000;
